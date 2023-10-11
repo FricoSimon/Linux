@@ -1,0 +1,22 @@
+## Contains all of Linux Ubuntu's commands ## 
+
+- Glossarium
+su = super user 
+
+// the highest tier of command
+sudo
+
+// update repository and system
+sudo apt update
+
+// upgrade repository and system
+sudo apt upgrade
+
+// print value inside a document
+cat FILENAME
+
+// only print the beginning value of a document
+head FILENAME
+
+// only print the end value of a document
+tail FILENAME
