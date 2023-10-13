@@ -20,3 +20,22 @@ head FILENAME
 
 // only print the end value of a document
 tail FILENAME
+
+// show current directory (path)
+pwd
+
+// change directory 
+cd 
+cd .. (move up one directory level)
+cd - (back to previous dir)
+cd ~ (go to user's home dir)
+cd / (go to root dir)
+
+// show directory as a tree 
+tree [ -d ] [ -a ] 
+
+// show list 
+ls [ -all ] [ -long ]
+
+// create file 
+touch NAMEFILE
