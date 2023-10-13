@@ -39,3 +39,7 @@ ls [ -all ] [ -long ]
 
 // create file 
 touch NAMEFILE
+
+// create link (hard & soft)
+ln PATH_TO_FILE1 PATH_TO_FILE2 (hardlink) strict as edit in one file affect others
+ln -s PATH_TO_FILE1 PATH_TO_FILE2 (softlink) more flexible
