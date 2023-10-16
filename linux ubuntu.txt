@@ -35,13 +35,19 @@ cd / (go to root dir)
 tree [ -d ] [ -a ] 
 
 // show list 
-ls [ -all ] [ -long ]
+ls [ -all ] [ -long ] [ *keyword filename* ] 
 
 // show directory only
 dir
 
 // create file 
-touch [ -timestamp ] NAMEFILE
+touch [ -timestamp ] FILENAME
+
+// rename file 
+mv old FILENAME new FILENAME
+
+// remove file 
+rm [ -f ] [ -i ] FILENAME
 
 // create link (hard & soft)
 ln PATH_TO_FILE1 PATH_TO_FILE2 (hardlink) strict as edit in one file affect others
@@ -56,3 +62,6 @@ popd
 // create and delete directory
 mkdir DIRECTORY NAME
 rmdir DIRECTORY NAME
+
+// remove dir and its content forcefully
+rm -rf DIRECTORY NAME
