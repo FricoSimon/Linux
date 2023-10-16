@@ -13,13 +13,13 @@ sudo apt update
 sudo apt upgrade
 
 // print value inside a document
-cat FILENAME
+cat [ -n ] FILENAME
 
 // only print the beginning value of a document
-head FILENAME
+head [ -NUMBER OF LINE ] FILENAME
 
 // only print the end value of a document
-tail FILENAME
+tail [ -NUMBER OF LINE ] FILENAME
 
 // show current directory (path)
 pwd
@@ -37,9 +37,22 @@ tree [ -d ] [ -a ]
 // show list 
 ls [ -all ] [ -long ]
 
+// show directory only
+dir
+
 // create file 
-touch NAMEFILE
+touch [ -timestamp ] NAMEFILE
 
 // create link (hard & soft)
 ln PATH_TO_FILE1 PATH_TO_FILE2 (hardlink) strict as edit in one file affect others
 ln -s PATH_TO_FILE1 PATH_TO_FILE2 (softlink) more flexible
+
+// add directory to list (stack)
+pushd DIRECTORY PATH
+
+// back to original directory (stack)
+popd 
+
+// create and delete directory
+mkdir DIRECTORY NAME
+rmdir DIRECTORY NAME
