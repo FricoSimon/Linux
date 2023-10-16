@@ -1,7 +1,10 @@
 ## Contains all of Linux Ubuntu's commands ## 
 
 - Glossarium
-su = super user 
+su = Super User 
+apt = Advanced Package Tool
+stdin, stdout, stderr = standard input / output / error
+grep = Global Regular Expression Print
 
 // the highest tier of command
 sudo
@@ -65,3 +68,16 @@ rmdir DIRECTORY NAME
 
 // remove dir and its content forcefully
 rm -rf DIRECTORY NAME
+
+// output direction 
+> FILENAME
+example: echo "hello world" > hello.txt
+
+// pipeline (combine several commands into one)
+| 
+
+// search file and directory 
+locate KEYWORD 
+
+// search and manipulating text 
+grep
