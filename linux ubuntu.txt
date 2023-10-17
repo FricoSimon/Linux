@@ -3,6 +3,7 @@
 - Glossarium
 su = Super User 
 apt = Advanced Package Tool
+dpkg = Debian Package Manager
 stdin, stdout, stderr = standard input / output / error
 grep = Global Regular Expression Print
 
@@ -81,3 +82,7 @@ locate KEYWORD
 
 // search and manipulating text 
 grep
+
+// documentation (manual pages)
+man COMMAND
+info COMMAND (more extensive)
