@@ -6,6 +6,7 @@ apt = Advanced Package Tool
 dpkg = Debian Package Manager
 stdin, stdout, stderr = standard input / output / error
 grep = Global Regular Expression Print
+ps = Process Status
 
 // the highest tier of command
 sudo
@@ -86,3 +87,11 @@ grep
 // documentation (manual pages)
 man COMMAND
 info COMMAND (more extensive)
+
+// show all process in this terminal
+ps [ -f ] show parent process [ -ef ] show all process
+
+// display disk space
+df [ -h ] human readable format 
+
+
