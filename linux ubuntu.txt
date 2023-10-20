@@ -82,7 +82,9 @@ example: echo "hello world" > hello.txt
 locate KEYWORD 
 
 // search and manipulating text 
-grep
+grep [ -v ] print all except the keyword [ -c ] count the number of keyword appears
+[ -n ] print the lines [ -i ] ignore case sensitive
+[ -r ] search not only in its directories but also in all of its subdirectories
 
 // documentation (manual pages)
 man COMMAND
