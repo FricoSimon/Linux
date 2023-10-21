@@ -96,4 +96,16 @@ ps [ -f ] show parent process [ -ef ] show all process
 // display disk space
 df [ -h ] human readable format 
 
+// redirect output file
+> = overwrites file and create if doesn't exist
+>> = appends file and create if doesn't exist
+
+// nano text editor
+nano FILENAME
+
+// vim text editor
+sudo apt install vim
+vim FILENAME
+
+tutorial = vimtutor
 
