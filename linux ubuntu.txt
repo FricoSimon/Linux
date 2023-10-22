@@ -109,3 +109,28 @@ vim FILENAME
 
 tutorial = vimtutor
 
+// create new user 
+sudo adduser USERNAME
+
+// delete a user
+sudo userdel USERNAME
+
+// export env variable
+export VARIABLE_NAME=VARIABLE_VALUE
+
+// list history of command used
+history
+
+// change ownership of file
+chown NEW_USER FILENAME
+
+// change permissions of file
+chmod XXX FILENAME
+
+1 = execute permission (x)
+2 = write permission (w)
+4 = read permission (r)
+
+first x = owner
+second x = group
+third x = everyone
