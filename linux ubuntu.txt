@@ -41,6 +41,7 @@ tree [ -d ] [ -a ]
 
 // show list 
 ls [ -all ] [ -long ] [ *keyword filename* ] 
+ll stands for ls -l 
 
 // show directory only
 dir
@@ -134,3 +135,8 @@ chmod XXX FILENAME
 first x = owner
 second x = group
 third x = everyone
+
+// create a shell script file
+NAME.sh
+
+add #! /bin/sh
