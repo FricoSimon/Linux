@@ -140,3 +140,7 @@ third x = everyone
 NAME.sh
 
 add #! /bin/sh
+
+// find command
+find PATH -name FILENAME [ -t ] type F / D [ -exec ] execute command for all item 
+(find . -name hello.txt)
