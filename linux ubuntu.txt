@@ -87,6 +87,17 @@ grep [ -v ] print all except the keyword [ -c ] count the number of keyword appe
 [ -n ] print the lines [ -i ] ignore case sensitive
 [ -r ] search not only in its directories but also in all of its subdirectories
 
+// manipulating text (stream editor)
+sed 's/OLD TEXT/NEW TEXT/' FILENAME 
+[-i] change the file
+/ is called delimiter and we can it with anything if needed
+
+// text processing
+awk 
+ps | awk '{print $1}' 
+awk -F ":" '{print $1}' /etc/passwd
+[-F] field separator
+
 // documentation (manual pages)
 man COMMAND
 info COMMAND (more extensive)
