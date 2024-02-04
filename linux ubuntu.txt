@@ -115,6 +115,15 @@ sudo adduser USERNAME
 
 // delete a user
 sudo userdel USERNAME
+sudo rm -rf /home/USERNAME (delete user's folder(
+
+// change password user
+passwd (user)
+sudo passwd USERNAME (admin)
+
+// list all users in linux
+ls -l /home (usually they have their own folder)
+cat /etc/passwd
 
 // export env variable
 export VARIABLE_NAME=VARIABLE_VALUE
